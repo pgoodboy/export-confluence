@@ -94,6 +94,14 @@ python export_confluence.py
 
 ## Troubleshooting
 
+* **module 'collections' has no attribute 'Callable'**
+
+  * add these 2 lines into the top of `export_confluence.py`
+  ```
+    import collections
+    collections.Callable = collections.abc.Callable
+  ```
+
 * **404 on export request:**
 
   * Ensure `CONFLUENCE_BASE_URL` ends with `/wiki`.
