@@ -47,7 +47,7 @@ pip install requests beautifulsoup4 python-dotenv
 ```env
 CONFLUENCE_USER=your_email@example.com
 CONFLUENCE_PASS=your_api_token_or_password
-CONFLUENCE_BASE_URL=https://your-domain.atlassian.net/wiki
+CONFLUENCE_BASE_URL=https://your-domain.atlassian.net/
 ```
 
 2. Create a `pages.txt` file with one Confluence page URL per line:
