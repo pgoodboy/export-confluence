@@ -64,7 +64,7 @@ https://your-domain.atlassian.net/wiki/spaces/IS/pages/1234567890/Another+Page
 Run the script:
 
 ```bash
-python export_confluence_pdfs.py
+python export_confluence.py
 ```
 
 * All PDFs will be saved in the `exported/` directory.
@@ -86,7 +86,7 @@ python export_confluence_pdfs.py
 .
 ├── .env
 ├── pages.txt
-├── export_confluence_pdfs.py
+├── export_confluence.py
 └── exported/
 ```
 
